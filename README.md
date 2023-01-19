@@ -1,5 +1,7 @@
 # GLOD-Issues
-Source code and additional results for GLOD issues
+Source code  and additional results for [On Using Classification Datasets to Evaluate Graph Outlier
+Detection](https://arxiv.org/pdf/2012.12931.pdf). 
+
 
 # Full Results
 ![Results over 10 datasets and 12 GLOD detectors](./figures/full_results.png)
@@ -37,3 +39,16 @@ trainer.fit(loaders[0])
 trainer.test(test_dataloaders=loaders[2])[0]
 ```
 
+
+# Cite
+Please cite our paper if you use the code. 
+
+```
+@article{zhao2021glod-issues,
+  title={On using classification datasets to evaluate graph outlier detection: Peculiar observations and new insights},
+  author={Zhao, Lingxiao and Akoglu, Leman},
+  journal={Big Data},
+  year={2021},
+  publisher={Mary Ann Liebert, Inc., publishers 140 Huguenot Street, 3rd Floor New~…}
+}
+```
